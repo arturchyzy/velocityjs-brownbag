@@ -1,0 +1,16 @@
+.toAnimate {
+    position: relative;
+    left: 10px;
+}
+
+.cssAnimation {
+    visibility: visible;
+    opacity: 1;
+    transition: opacity 1s, visibility 1s;
+}
+
+.cssAnimation:hover {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1s, visibility 1s;
+}
